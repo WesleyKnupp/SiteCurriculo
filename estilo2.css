@@ -1,0 +1,137 @@
+/*Estilização do corpo da página*/
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', 'Arial';
+}
+/* Estilização da sessão HEADER da página */
+header{
+    background: linear-gradient(	#00CED1, 	#008080);
+    padding: 15px 0;
+}
+/*Estilização da sessão NAV (navegação da página)*/
+nav{
+    position:absolute;
+    top: 110px;
+    right: 50px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+nav a{
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+/*Estilização das listas da página*/
+ul{
+    list-style:none;
+}
+/*Estilização do Logotipo*/
+.logo_prin{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    margin: 0 -400px;
+}
+
+/**Estilização da area principal da formação*/
+
+.titulo-formação{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10 0 1em;
+    clear: left;
+}
+.txt-formação{
+    text-align: center;
+    font-size: 1.25em;
+    margin: 15 0 1em;
+    clear: left;   
+}
+
+
+.formação{
+    padding: 30px 0;
+}
+
+/*Estilização das formações*/
+
+.formação{
+    width: 90%;
+	margin: 20px 0 50px 100px;
+}
+.formação li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	padding: 30px 0;
+	
+	margin:0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 4px solid #000000;
+	border-radius: 10px;
+}
+.EM{
+    line-height: 1.5;
+}
+
+.tec_meca{
+    line-height: 1.5;
+}
+
+.ads{
+    line-height: 1.5;
+}
+
+.img_em{
+    width: 50%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px #000;
+}
+
+.img_meca{
+    width: 67.5%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px #000;
+}
+
+.img_ads{
+    width: 75.5%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px #000;
+}
+
+/*Área do rodapé*/
+footer{
+    text-align: center;
+    background-image: url("../Imagens/dev\ web.jpg");
+
+}
+
+.banner{
+    width: 100%;
+}
+
+.copyright{
+    color: #008080;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

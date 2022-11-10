@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(12, 68, 223);
+    flex-direction: column;
+}
+.text{
+    font-size: 45px;
+    color: rgb(12, 204, 238);
+    margin-bottom: 30px;
+}
+.paragrafo{
+    color:  rgb(12, 204, 238);
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 15px 55px;
+    background:  rgb(12, 204, 238);
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border-radius: 16px;
+}
